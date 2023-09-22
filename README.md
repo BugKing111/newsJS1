@@ -24,7 +24,8 @@ JS、json-server、bootstrap、echarts、Fetch等来实现
 
 #### 一个简单的轮播介绍页
 
-![image](https://github.com/BugKing111/newsJS1/assets/143703487/5d7fe944-ec32-464b-8e62-695e6450c270)
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/25664f76-4a54-4563-a7e3-33b8c09d4c78)
+
 
 
 # 后台管理登录的页面
