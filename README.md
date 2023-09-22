@@ -13,43 +13,52 @@ JS、json-server、bootstrap、echarts、Fetch等来实现
 
 3.之后正常运行首页就可以了
 
+# 简单的展示
+
+
 # 用户登录的页面（即新闻页）
-
-#### 一个简单的轮播介绍页
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/ab96e48f-a316-418a-979a-49468187c85c)
-
-#### 新闻首页
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/1359a5f7-660f-48c7-8996-f264ce7d9152)
-
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/491c0618-a725-415a-9b34-0ece8c580492)
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/abc18137-5657-4bfe-9b8c-b1d8da9f7b55)
 
 新闻详情：
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/829f17bc-2b16-4525-bdfb-fe290115c703)
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/e0de6356-1671-40ad-91ef-a87e72b1ec74)
 
-# 后台管理的页面
+#### 一个简单的轮播介绍页
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/5d7fe944-ec32-464b-8e62-695e6450c270)
 
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/a9adee55-6fe1-42f1-aecc-401cb3899e30)
+
+# 后台管理登录的页面
+
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/336977ae-638b-4fb4-b368-84d1d5962c93)
 
 #### 超级管理员的页面
 ###### 管理用户
+首页：
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/cc1d8b9d-7b68-4f8d-af1f-ba408357812c)
 
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/29236611-43ed-42f9-91c6-75dc5b0541a5)
+添加普通管理员页
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/81d3b2f0-7193-4a95-af14-2fa798eb9565)
 
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/33b87b65-70f8-4ffc-b177-95c5e635a60d)
+管理员列表页
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/722d0d50-262f-4972-adce-a397e7fcdbae)
 
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/fed1ed7e-459a-4dfb-9aad-c89daab3ca95)
 
 ###### 管理新闻
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/770c95ae-090f-43de-bdda-2caa2ff7e8c9)
 
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/a0cb20a2-74bc-47ca-b03a-4d6957b63c51)
+发布新闻页（用了富文本）
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/5f8f11dc-2e77-422b-a3cf-ae71a550f508)
+
+新闻列表页
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/f0bb8ba3-6b51-4e43-9512-8c884bd25d47)
+
 
 预览页面
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/fc4046e6-aad9-4cf4-84cf-d206d6645e35)
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/f2a4f738-1933-40f3-a23d-cbb46a444de7)
+
 
 
 #### 普通管理员页面
-![image](https://github.com/BugKing111/NewsJS/assets/143703487/e94ff331-2449-4652-9e35-7678c6de7718)
+![image](https://github.com/BugKing111/newsJS1/assets/143703487/ed65bbd6-616b-4acb-b0d9-fc46a48ecb46)
+
 
 
 
