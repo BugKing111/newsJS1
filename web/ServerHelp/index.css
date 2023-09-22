@@ -1,0 +1,32 @@
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .topbar {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.main .box {
+  margin-top: 50px;
+  height: 100%;
+  flex-grow: 0;
+  background-color: pink;
+}
+
+.main .box img {
+  height: 660px;
+}
+
+.main .box h2 {
+  margin-top: 50px;
+}

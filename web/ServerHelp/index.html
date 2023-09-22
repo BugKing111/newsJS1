@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/admin/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/admin/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <script src="/admin/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+
+</head>
+<style>
+  /* .box {
+      width: 800px;
+      height: 300px;
+      background-color: pink;
+      margin: 100px auto;
+  } */
+
+  .carousel,
+  .carousel img {
+    /* width: 100%; */
+    height: calc(100% - 50px);
+  }
+  
+</style>
+<body>
+    <div class="main">
+        <!-- 导航栏 -->
+        <div class="topbar" id="topbar">
+
+        </div>
+        <!-- 轮播图 -->
+        <div class="box">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <!-- 下面的小行梗 -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- 内容 -->
+            <div class="carousel-inner " style="font-size:30px;">
+              <div class="carousel-item active">
+                <a href="#">
+                  <img src="../../images/2.jpeg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size:30px;">欢迎来到我的新闻</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="../../images/444.jpeg" class=" w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size:30px;">到新闻详情页面可以观看各种类型的新闻</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="../../images/999.jpeg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size:30px;">网址出现问题可以联系</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- 左右两边的箭头按钮 -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+    <!-- 设置轮播图自动播放时间 -->
+    <!-- 在这里不起作用，可以在上面加date-bs-ride那两句，可以实现自动 -->
+    <script>
+      // $(function(){
+      //   $('.carousel').carousel({
+      //     // pause:true,
+      //     interval: 2000
+      //   })
+      // })
+    </script>
+    <!-- 设计模块 -->
+    <script src="index.js" type="module"></script>
+</body>
+</html>

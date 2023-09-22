@@ -1,0 +1,32 @@
+html,body,.main{
+    height: 100%;
+    // overflow-y: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: column;  // 指定盒子内的元素排列方式为从上到下
+    .topbar{
+        height: 50px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        // background-color: rgb(72, 147, 176);
+    }
+    .box{
+        margin-top: 50px;
+        height: 100%;
+        // padding-top: 10px;
+        flex-grow: 0;  // 是一个复合属性，用来控制子元素的缩放
+        background-color: pink;
+        img{
+            height: 660px;
+            // height: calc(100% - 500px);
+        }
+            h2{
+                margin-top: 50px;
+            }
+    }
+    
+}
